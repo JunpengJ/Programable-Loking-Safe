@@ -1,0 +1,1 @@
+-wto "00b8084b90dd4a7bbaeb01f6a4bb12fd" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "PmodKYPD_func_synth" "xil_defaultlib.PmodKYPD" -log "elaborate.log" 

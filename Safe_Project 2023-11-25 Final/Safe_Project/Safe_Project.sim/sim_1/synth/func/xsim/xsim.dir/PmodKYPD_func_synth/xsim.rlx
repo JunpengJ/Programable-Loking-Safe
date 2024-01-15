@@ -1,0 +1,12 @@
+
+{ 
+    crc :  4049083807899109575  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 00b8084b90dd4a7bbaeb01f6a4bb12fd --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot PmodKYPD_func_synth xil_defaultlib.PmodKYPD" , 
+    buildDate : "May 24 2019" , 
+    buildTime : "15:06:07" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2019.1\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/PmodKYPD_func_synth/xsimk.exe\"   \"xsim.dir/PmodKYPD_func_synth/obj/xsim_0.win64.obj\" \"xsim.dir/PmodKYPD_func_synth/obj/xsim_1.win64.obj\" -L\"C:\\Xilinx\\Vivado\\2019.1\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

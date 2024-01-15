@@ -1,0 +1,431 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Nov 25 17:44:06 2023
+# Process ID: 8140
+# Current directory: F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.runs/synth_1
+# Command line: vivado.exe -log PmodKYPD.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PmodKYPD.tcl
+# Log file: F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.runs/synth_1/PmodKYPD.vds
+# Journal file: F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source PmodKYPD.tcl -notrace
+Command: synth_design -top PmodKYPD -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8944 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 729.301 ; gain = 176.691
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'PmodKYPD' [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/PmodKYPD.vhd:21]
+INFO: [Synth 8-3491] module 'Decoder' declared at 'F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/Decoder.vhd:6' bound to instance 'C0' of component 'Decoder' [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/PmodKYPD.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'Decoder' [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/Decoder.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Decoder' (1#1) [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/Decoder.vhd:14]
+INFO: [Synth 8-3491] module 'DisplayController' declared at 'F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/DisplayController.vhd:6' bound to instance 'C1' of component 'DisplayController' [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/PmodKYPD.vhd:91]
+INFO: [Synth 8-638] synthesizing module 'DisplayController' [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/DisplayController.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'DisplayController' (2#1) [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/DisplayController.vhd:21]
+INFO: [Synth 8-3491] module 'PasswordDetector' declared at 'F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/PasswordDetector.vhd:35' bound to instance 'C2' of component 'PasswordDetector' [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/PmodKYPD.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'PasswordDetector' [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/PasswordDetector.vhd:48]
+INFO: [Synth 8-226] default block is never used [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/PasswordDetector.vhd:82]
+INFO: [Synth 8-256] done synthesizing module 'PasswordDetector' (3#1) [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/PasswordDetector.vhd:48]
+INFO: [Synth 8-3491] module 'MotorController' declared at 'F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/MotorController.vhd:34' bound to instance 'C3' of component 'MotorController' [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/PmodKYPD.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'MotorController' [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/MotorController.vhd:46]
+INFO: [Synth 8-226] default block is never used [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/MotorController.vhd:128]
+INFO: [Synth 8-256] done synthesizing module 'MotorController' (4#1) [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/MotorController.vhd:46]
+INFO: [Synth 8-3491] module 'CompartmentDetector' declared at 'F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/CompartmentDetector.vhd:34' bound to instance 'C4' of component 'CompartmentDetector' [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/PmodKYPD.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'CompartmentDetector' [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/CompartmentDetector.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'CompartmentDetector' (5#1) [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/CompartmentDetector.vhd:39]
+WARNING: [Synth 8-3848] Net door_state_from_sensor in module/entity PmodKYPD does not have driver. [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/PmodKYPD.vhd:82]
+WARNING: [Synth 8-3848] Net reset_motor in module/entity PmodKYPD does not have driver. [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/PmodKYPD.vhd:83]
+INFO: [Synth 8-256] done synthesizing module 'PmodKYPD' (6#1) [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/PmodKYPD.vhd:21]
+WARNING: [Synth 8-3331] design MotorController has unconnected port DoorState
+WARNING: [Synth 8-3331] design DisplayController has unconnected port DispVal[3]
+WARNING: [Synth 8-3331] design DisplayController has unconnected port DispVal[2]
+WARNING: [Synth 8-3331] design DisplayController has unconnected port DispVal[1]
+WARNING: [Synth 8-3331] design DisplayController has unconnected port DispVal[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 792.684 ; gain = 240.074
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 792.684 ; gain = 240.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 792.684 ; gain = 240.074
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/constrs_1/new/KypdCons.xdc]
+Finished Parsing XDC File [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/constrs_1/new/KypdCons.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/constrs_1/new/KypdCons.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/PmodKYPD_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/PmodKYPD_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 917.312 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 917.312 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 917.312 ; gain = 364.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 917.312 ; gain = 364.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 917.312 ; gain = 364.703
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "digits_to_disp_buffer" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "display_buffer" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 917.312 ; gain = 364.703
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     30 Bit       Adders := 1     
+	   2 Input     28 Bit       Adders := 1     
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               30 Bit    Registers := 1     
+	               28 Bit    Registers := 1     
+	               16 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 7     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     30 Bit        Muxes := 1     
+	   3 Input     28 Bit        Muxes := 1     
+	   2 Input     28 Bit        Muxes := 1     
+	   2 Input     20 Bit        Muxes := 1     
+	   5 Input     16 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 7     
+	   2 Input      4 Bit        Muxes := 25    
+	  11 Input      4 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 2     
+	   3 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 2     
+	   9 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 6     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 29    
+	   6 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Decoder 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 2     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 5     
+	   2 Input      4 Bit        Muxes := 8     
+	  11 Input      4 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   9 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module DisplayController 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+	   5 Input     16 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 16    
+	   3 Input      4 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module PasswordDetector 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     30 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               30 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     30 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 21    
+	   4 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 4     
+Module MotorController 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     28 Bit       Adders := 1     
++---Registers : 
+	               28 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   3 Input     28 Bit        Muxes := 1     
+	   2 Input     28 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3886] merging instance 'C2/pass_error_msg_reg[3]' (FDRE) to 'C2/pass_error_msg_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\C2/pass_error_msg_reg[2] )
+INFO: [Synth 8-3886] merging instance 'C1/message_buffer_reg[3]' (FD) to 'C1/message_buffer_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\C1/message_buffer_reg[2] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 917.312 ; gain = 364.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------------+------------+---------------+----------------+
+|Module Name       | RTL Object | Depth x Width | Implemented As | 
++------------------+------------+---------------+----------------+
+|DisplayController | segOut     | 32x7          | LUT            | 
+|PmodKYPD          | C1/segOut  | 32x7          | LUT            | 
++------------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-565] redefining clock 'sys_clk_pin'
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 917.312 ; gain = 364.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 923.070 ; gain = 370.461
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5966] Removing register instance (\C3/next_state_reg[1]__0 ) from module (PmodKYPD) as it has self-loop and (\C3/next_state_reg[1] ) is actual driver [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/MotorController.vhd:76]
+INFO: [Synth 8-5966] Removing register instance (\C3/next_state_reg[0]__0 ) from module (PmodKYPD) as it has self-loop and (\C3/next_state_reg[0] ) is actual driver [F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.srcs/sources_1/new/MotorController.vhd:76]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 932.109 ; gain = 379.500
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 937.887 ; gain = 385.277
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 937.887 ; gain = 385.277
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 937.887 ; gain = 385.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 937.887 ; gain = 385.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 937.887 ; gain = 385.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 937.887 ; gain = 385.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    38|
+|3     |LUT1   |     4|
+|4     |LUT2   |    32|
+|5     |LUT3   |    29|
+|6     |LUT4   |    71|
+|7     |LUT5   |    60|
+|8     |LUT6   |    87|
+|9     |FDRE   |   205|
+|10    |FDSE   |     6|
+|11    |IBUF   |     6|
+|12    |OBUF   |    25|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+------------------+------+
+|      |Instance |Module            |Cells |
++------+---------+------------------+------+
+|1     |top      |                  |   564|
+|2     |  C0     |Decoder           |   126|
+|3     |  C1     |DisplayController |   156|
+|4     |  C2     |PasswordDetector  |   133|
+|5     |  C3     |MotorController   |   116|
++------+---------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 937.887 ; gain = 385.277
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 937.887 ; gain = 260.648
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 937.887 ; gain = 385.277
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 38 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 952.684 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+40 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:34 . Memory (MB): peak = 952.684 ; gain = 650.797
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 952.684 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'F:/CENG 3010/Term Project/Safe_Project 2023-11-25 Final/Safe_Project/Safe_Project.runs/synth_1/PmodKYPD.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file PmodKYPD_utilization_synth.rpt -pb PmodKYPD_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 25 17:44:47 2023...

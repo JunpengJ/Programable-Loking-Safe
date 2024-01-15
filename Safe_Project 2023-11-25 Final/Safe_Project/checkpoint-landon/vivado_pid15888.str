@@ -1,0 +1,564 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 15888
+License: Customer
+
+Current time: 	Sun Nov 19 15:15:16 PST 2023
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 6
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 246 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	T00549875
+User home directory: C:/Users/T00549875
+User working directory: F:/3010/KYPDTry
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.1
+RDI_DATADIR: C:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/T00549875/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/T00549875/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/T00549875/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	F:/3010/KYPDTry/vivado.log
+Vivado journal file location: 	F:/3010/KYPDTry/vivado.jou
+Engine tmp dir: 	F:/3010/KYPDTry/.Xil/Vivado-15888-om1792-15
+
+Xilinx Environment Variables
+----------------------------
+ANDROID_SDK_HOME: C:\Android-AVDs
+ANDROID_SDK_ROOT: C:\Android-SDK
+XILINX: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.1
+XILINX_SDK: C:/Xilinx/SDK/2019.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 596 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: F:\3010\KYPDTry\KYPDTry.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project F:/3010/KYPDTry/KYPDTry.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 596 MB. GUI used memory: 43 MB. Current time: 11/19/23, 3:15:18 PM PST
+// Tcl Message: open_project F:/3010/KYPDTry/KYPDTry.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 59 MB (+59528kb) [00:00:14]
+// [Engine Memory]: 621 MB (+499165kb) [00:00:14]
+// [GUI Memory]: 76 MB (+14082kb) [00:00:15]
+// [GUI Memory]: 101 MB (+22229kb) [00:00:16]
+// [Engine Memory]: 654 MB (+2978kb) [00:00:16]
+// WARNING: HEventQueue.dispatchEvent() is taking  4318 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1146 ms. Increasing delay to 3000 ms.
+// [Engine Memory]: 714 MB (+28690kb) [00:00:21]
+// Project name: KYPDTry; location: F:/3010/KYPDTry; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 738.602 ; gain = 154.840 
+dismissDialog("Open Project"); // by (cl)
+// [GUI Memory]: 115 MB (+9681kb) [00:00:22]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0); // B (F, cl)
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodKYPD(Behavioral) (PmodKYPD.vhd)]", 1, true); // B (F, cl) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodKYPD(Behavioral) (PmodKYPD.vhd)]", 1); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodKYPD(Behavioral) (PmodKYPD.vhd)]", 1, true); // B (F, cl) - Node
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 203ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodKYPD(Behavioral) (PmodKYPD.vhd)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodKYPD(Behavioral) (PmodKYPD.vhd)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Elapsed time: 18 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodKYPD(Behavioral) (PmodKYPD.vhd)]", 1); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodKYPD(Behavioral) (PmodKYPD.vhd), C2 : PasswordDetector(Behavioral) (PasswordDetector.vhd)]", 4, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodKYPD(Behavioral) (PmodKYPD.vhd), C2 : PasswordDetector(Behavioral) (PasswordDetector.vhd)]", 4, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodKYPD(Behavioral) (PmodKYPD.vhd), C1 : DisplayController(Behavioral) (DisplayController.vhd)]", 3, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodKYPD(Behavioral) (PmodKYPD.vhd), C1 : DisplayController(Behavioral) (DisplayController.vhd)]", 3, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodKYPD(Behavioral) (PmodKYPD.vhd), C0 : Decoder(Behavioral) (Decoder.vhd)]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PmodKYPD(Behavioral) (PmodKYPD.vhd), C0 : Decoder(Behavioral) (Decoder.vhd)]", 2, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PasswordDetector.vhd", 2); // k (j, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("PasswordDetector.vhd", 21, 61); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 335, 123); // cl (w, cl)
+// Elapsed time: 27 seconds
+selectCodeEditor("PasswordDetector.vhd", 376, 111); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 116, 107); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 116, 107, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("PasswordDetector.vhd", 81, 107); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 81, 125); // cl (w, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("PasswordDetector.vhd", 85, 124); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 285, 148); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 276, 273); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 311, 266); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PmodKYPD.vhd", 1); // k (j, cl)
+// Elapsed time: 21 seconds
+selectCodeEditor("PmodKYPD.vhd", 543, 418); // cl (w, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("PmodKYPD.vhd", 559, 397); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 564, 414); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 558, 418); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 256, 418); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 256, 418, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 19 seconds
+selectCodeEditor("PmodKYPD.vhd", 100, 143); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 100, 143, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("PmodKYPD.vhd", 110, 141); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 110, 141, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("PmodKYPD.vhd", 84, 160); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 84, 160, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("PmodKYPD.vhd", 99, 192); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 99, 192, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("PmodKYPD.vhd", 218, 198); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 218, 198, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("PmodKYPD.vhd", 105, 194); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 105, 194, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 67 seconds
+selectCodeEditor("PmodKYPD.vhd", 106, 193); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 106, 193, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("PmodKYPD.vhd", 109, 107); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 109, 107, false, false, false, false, true); // cl (w, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PasswordDetector.vhd", 2); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PmodKYPD.vhd", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PmodKYPD.vhd", 1); // k (j, cl)
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.vhd", 3); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PasswordDetector.vhd", 2); // k (j, cl)
+selectCodeEditor("PasswordDetector.vhd", 52, 215); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 60, 214); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 246, 231); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 154, 210); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 154, 210, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("PasswordDetector.vhd", 95, 256); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 154, 213); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 154, 213, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("PasswordDetector.vhd", 255, 208); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 255, 208, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("PasswordDetector.vhd", 321, 246); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 326, 228); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 117, 214); // cl (w, cl)
+// Elapsed time: 18 seconds
+selectCodeEditor("PasswordDetector.vhd", 80, 228); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 84, 230); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 84, 230); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 247, 226); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 247, 226, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("PasswordDetector.vhd", 252, 224); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 252, 224, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("PasswordDetector.vhd", 252, 224); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 185, 232); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 185, 232, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("PasswordDetector.vhd", 124, 238); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 81, 229); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 282, 230); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 81, 247); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 349, 244); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 272, 387); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 336, 366); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 153, 399); // cl (w, cl)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PasswordDetector.vhd", 2); // k (j, cl)
+selectCodeEditor("PasswordDetector.vhd", 125, 316); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 22, 40); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 265, 413); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 253, 460); // cl (w, cl)
+// Elapsed time: 16 seconds
+selectCodeEditor("PasswordDetector.vhd", 129, 311); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 121, 311); // cl (w, cl)
+// Elapsed time: 29 seconds
+selectCodeEditor("PasswordDetector.vhd", 572, 183); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 110, 161); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 579, 164); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 588, 163); // cl (w, cl)
+// Elapsed time: 26 seconds
+selectCodeEditor("PasswordDetector.vhd", 380, 154); // cl (w, cl)
+// Elapsed time: 16 seconds
+selectCodeEditor("PasswordDetector.vhd", 607, 162); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 379, 159); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 609, 162); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 517ms to process. Increasing delay to 3000 ms.
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 7 seconds
+dismissDialog("Launch Runs"); // f (cl)
+// by (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Nov 19 15:25:26 2023] Launched synth_1... Run output will be captured here: F:/3010/KYPDTry/KYPDTry.runs/synth_1/runme.log [Sun Nov 19 15:25:26 2023] Launched impl_1... Run output will be captured here: F:/3010/KYPDTry/KYPDTry.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 414ms to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 471ms to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 83 seconds
+selectCodeEditor("PasswordDetector.vhd", 559, 111); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 763, 154); // cl (w, cl)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ah (cl): Bitstream Generation Completed: addNotify
+// Elapsed time: 46 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+// [GUI Memory]: 126 MB (+5213kb) [00:12:35]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// by (cl):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // by (cl)
+// Elapsed time: 12 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cS, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// by (cl):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2019.1   **** Build date : May 24 2019 at 15:13:31     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 768.852 ; gain = 11.305 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  4223 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B03A4FA 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,828 MB. GUI used memory: 63 MB. Current time: 11/19/23, 3:28:09 PM PST
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {F:/3010/KYPDTry/KYPDTry.runs/impl_1/PmodKYPD.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// [Engine Memory]: 1,829 MB (+1131114kb) [00:13:03]
+// Elapsed time: 11 seconds
+dismissDialog("Auto Connect"); // by (cl)
+// Elapsed time: 52 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {F:/3010/KYPDTry/KYPDTry.runs/impl_1/PmodKYPD.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // by (cl)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B03A4FA 
+// n (cl): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 36 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+// TclEventType: HW_TARGET_CHANGE
+dismissDialog("Close Hardware Target"); // n (cl)
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+// Elapsed time: 11 seconds
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {F:/3010/KYPDTry/KYPDTry.runs/impl_1/PmodKYPD.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 12 seconds
+dismissDialog("Program Device"); // by (cl)
+// Elapsed time: 36 seconds
+selectCodeEditor("PmodKYPD.vhd", 525, 227); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Decoder.vhd", 3); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PmodKYPD.vhd", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PasswordDetector.vhd", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Decoder.vhd", 3); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.vhd", 2); // k (j, cl)
+selectCodeEditor("DisplayController.vhd", 335, 296); // cl (w, cl)
+selectCodeEditor("DisplayController.vhd", 98, 277); // cl (w, cl)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PasswordDetector.vhd", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Decoder.vhd", 3); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PmodKYPD.vhd", 0); // k (j, cl)
+selectCodeEditor("PmodKYPD.vhd", 599, 379); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 646, 385); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 646, 385, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("PmodKYPD.vhd", 303, 417); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 303, 417, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("PmodKYPD.vhd", 581, 405); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 531, 414); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("PmodKYPD.vhd", 242, 413); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 28, 415); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 530, 413); // cl (w, cl)
+// Elapsed time: 31 seconds
+selectCodeEditor("PmodKYPD.vhd", 535, 420); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 559, 157); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 786, 201); // cl (w, cl)
+typeControlKey(null, null, 'z');
+selectCodeEditor("PmodKYPD.vhd", 706, 217); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 397, 201); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 96, 137); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 95, 160); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 92, 181); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 86, 193); // cl (w, cl)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PmodKYPD.vhd", 3, true, false); // k (j, cl) - Popup Trigger
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PmodKYPD.vhd", 2, true, false); // k (j, cl) - Popup Trigger
+selectMenuItem((HResource) null, "New Vertical Group"); // JMenuItem (JidePopupMenu)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PasswordDetector.vhd", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PmodKYPD.vhd", 0); // k (j, cl)
+selectCodeEditor("PmodKYPD.vhd", 409, 285); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("PasswordDetector.vhd", 79, 242); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 73, 249); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 433, 233); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 432, 155); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 432, 155, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("PasswordDetector.vhd", 432, 155); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 189, 135); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 194, 150); // cl (w, cl)
+// Elapsed time: 13 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "XADC ;   ", 3, "XADC", 0, false); // t (O, cl)
+// Elapsed time: 31 seconds
+selectCodeEditor("PasswordDetector.vhd", 138, 249); // cl (w, cl)
+// WARNING: HTimer (StateMonitor Timer) is taking 1867ms to process. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1867 ms.
+// Elapsed time: 33 seconds
+selectCodeEditor("PasswordDetector.vhd", 283, 318); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("PasswordDetector.vhd", 194, 196); // cl (w, cl)
+// Elapsed time: 11 seconds
+selectCodeEditor("PasswordDetector.vhd", 257, 228); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 385, 232); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 235, 195); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 433, 217); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 396, 329); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 386, 346); // cl (w, cl)
+// Elapsed time: 12 seconds
+selectCodeEditor("PasswordDetector.vhd", 406, 347); // cl (w, cl)
+// Elapsed time: 31 seconds
+selectCodeEditor("PasswordDetector.vhd", 232, 246); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 293, 247); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 270, 267); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 424, 292); // cl (w, cl)
+// Elapsed time: 38 seconds
+selectCodeEditor("PasswordDetector.vhd", 135, 313); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 135, 313, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("PasswordDetector.vhd", 197, 331); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 272, 267); // cl (w, cl)
+typeControlKey((HResource) null, "PasswordDetector.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 163, 329); // cl (w, cl)
+typeControlKey((HResource) null, "PasswordDetector.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 317, 330); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 171, 349); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 150, 350); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 82, 110); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 81, 124); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 292, 115); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PmodKYPD.vhd", 0); // k (j, cl)
+selectCodeEditor("PmodKYPD.vhd", 278, 183); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("PasswordDetector.vhd", 290, 175); // cl (w, cl)
+// Elapsed time: 18 seconds
+selectCodeEditor("PasswordDetector.vhd", 577, 213); // cl (w, cl)
+// Elapsed time: 13 seconds
+selectCodeEditor("PasswordDetector.vhd", 54, 97); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 348, 112); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 81, 108); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 206, 153); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 575, 212); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 221, 80); // cl (w, cl)
+// Elapsed time: 30 seconds
+selectCodeEditor("PasswordDetector.vhd", 104, 163); // cl (w, cl)
+// Elapsed time: 11 seconds
+selectCodeEditor("PasswordDetector.vhd", 74, 160); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 296, 419); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 296, 419, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("PmodKYPD.vhd", 305, 316); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 261, 383); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Decoder.vhd", 1); // k (j, cl)
+selectCodeEditor("Decoder.vhd", 415, 180); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PmodKYPD.vhd", 0); // k (j, cl)
+selectCodeEditor("PmodKYPD.vhd", 235, 472); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 260, 451); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 270, 436); // cl (w, cl)
+// Elapsed time: 20 seconds
+selectCodeEditor("PasswordDetector.vhd", 84, 197); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 313, 110); // cl (w, cl)
+typeControlKey((HResource) null, "PasswordDetector.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 238, 43); // cl (w, cl)
+typeControlKey((HResource) null, "PasswordDetector.vhd", 'v'); // cl (w, cl)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("PasswordDetector.vhd", 316, 110, true, false, false, false, false); // cl (w, cl) - Shift Key
+typeControlKey((HResource) null, "PasswordDetector.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 220, 52); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 227, 35); // cl (w, cl)
+typeControlKey((HResource) null, "PasswordDetector.vhd", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 455 seconds
+selectCodeEditor("PasswordDetector.vhd", 253, 230); // cl (w, cl)
+selectCodeEditor("PasswordDetector.vhd", 240, 230); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 249 seconds
+selectCodeEditor("PasswordDetector.vhd", 286, 199); // cl (w, cl)
+// Elapsed time: 30 seconds
+selectCodeEditor("PasswordDetector.vhd", 466, 372); // cl (w, cl)
+// Elapsed time: 87 seconds
+selectCodeEditor("PasswordDetector.vhd", 411, 62); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("PmodKYPD.vhd", 125, 107); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Decoder.vhd", 1); // k (j, cl)
+selectCodeEditor("Decoder.vhd", 193, 200); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplayController.vhd", 0); // k (j, cl)
+selectCodeEditor("DisplayController.vhd", 253, 155); // cl (w, cl)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 607, 69); // dt (af, cl)
+// Elapsed time: 21 seconds
+selectCodeEditor("DisplayController.vhd", 448, 11); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PmodKYPD.vhd", 0); // k (j, cl)
+selectCodeEditor("PmodKYPD.vhd", 172, 109); // cl (w, cl)
+selectCodeEditor("PmodKYPD.vhd", 377, 293); // cl (w, cl)

@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Safe_Project.srcs/sources_1/new/Decoder.vhd" \
+"../../../../Safe_Project.srcs/sources_1/new/DisplayController.vhd" \
+"../../../../Safe_Project.srcs/sources_1/new/PasswordDetector.vhd" \
+"../../../../Safe_Project.srcs/sources_1/new/PmodKYPD.vhd" \
+
+# Do not sort compile order
+nosort

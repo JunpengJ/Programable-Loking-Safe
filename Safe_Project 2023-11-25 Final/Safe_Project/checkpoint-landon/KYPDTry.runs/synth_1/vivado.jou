@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov 19 15:25:33 2023
+# Process ID: 13812
+# Current directory: F:/3010/KYPDTry/KYPDTry.runs/synth_1
+# Command line: vivado.exe -log PmodKYPD.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PmodKYPD.tcl
+# Log file: F:/3010/KYPDTry/KYPDTry.runs/synth_1/PmodKYPD.vds
+# Journal file: F:/3010/KYPDTry/KYPDTry.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source PmodKYPD.tcl -notrace
